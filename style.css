@@ -1,0 +1,98 @@
+body {
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+    background-image: url('https://i.pinimg.com/originals/70/a0/21/70a021f75b743aa4b6596f7461b2a592.png'); /* або локальний файл, напр. images/bg.jpg */
+    background-size: cover;       /* фото розтягується на весь екран */
+    background-position: center;  /* центрування фото */
+    background-repeat: no-repeat; /* не повторювати фото */
+    color: white;                 /* текст буде видно на фоні */
+}
+
+header h1 {
+    font-family: 'Palatino Linotype', serif;
+    font-size: 38px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px black;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e0d8c0;
+    border: 2px solid #4b2e0f;
+    border-radius: 10px;
+    width: 650px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+input {
+    padding: 8px;
+    width: 90%;
+    font-size: 16px;
+    border: 1px solid #4b2e0f;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b2e0f;
+    color: #f4eee0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #6b3e1f;
+}
+
+#result {
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fff8e0;
+    border: 1px solid #4b2e0f;
+    border-radius: 5px;
+    max-height: 100px;
+    overflow-y:auto;
+    word-break: break-word;
+    font-weight: bold;
+    width: 670px; 
+    margin: 15px auto; 
+    
+}
+
+h2 {
+  font-family:'Arial', sans-serif;
+  font-size: 24px;                 
+  color: #ffffff;                   
+  margin-top: 20px;                  
+  margin-bottom: 10px;               
+-webkit-text-stroke: 1px black;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
