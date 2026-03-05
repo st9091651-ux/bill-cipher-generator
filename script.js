@@ -34,6 +34,13 @@ function generate() {
 
     document.getElementById("result").innerText = result;
 }
+
+function clearInputs() { document.getElementById("textInput").value = "";
+    document.getElementById("min").value = "";
+    document.getElementById("max").value = ""; 
+    document.getElementById("count").value = ""; 
+    document.getElementById("result").innerText = ""; }
+
 const music = document.getElementById('bgMusic');
 
 function playMusic() {

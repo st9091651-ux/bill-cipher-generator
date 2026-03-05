@@ -3,11 +3,11 @@ body {
     color: #333;
     text-align: center;
     padding: 30px;
-    background-image: url('https://i.pinimg.com/originals/70/a0/21/70a021f75b743aa4b6596f7461b2a592.png'); /* або локальний файл, напр. images/bg.jpg */
+    background-image: url('https://i.pinimg.com/originals/70/a0/21/70a021f75b743aa4b6596f7461b2a592.png');
     background-size: cover;       /* фото розтягується на весь екран */
-    background-position: center;  /* центрування фото */
-    background-repeat: no-repeat; /* не повторювати фото */
-    color: white;                 /* текст буде видно на фоні */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;                 
 }
 
 header h1 {
